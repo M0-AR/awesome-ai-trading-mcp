@@ -164,6 +164,7 @@ Official endpoints with a keyless tier:
 | cTrader (Spotware) | Official remote + local MCP ([docs](https://help.ctrader.com/ctrader-ai-agent-connect/)) | Remote via cTrader Web token; local server trades with optional per-order confirmation |
 | eToro | Official `mcp.public-api.etoro.com` ([blog](https://builders.etoro.com/blog/vibe-coding-with-etoro-mcp)) | Exposes the full API spec; scoped by your user key. Community: [slemos/etoro-mcp-server](https://github.com/slemos/etoro-mcp-server) (demo/read-only by default) |
 | MetaTrader 5 | [Qoyyuum/mcp-metatrader5-server](https://github.com/Qoyyuum/mcp-metatrader5-server) (★238), [mt5-mcp](https://pypi.org/project/mt5-mcp/) | Community; Windows-only (MT5 Python SDK) |
+| fxapis (MetaTrader 5, hosted) | `api.fxapis.com/mcp` ([docs](https://fxapis.com/mcp)) | Commercial hosted service (paid plans, 14-day trial); connects MT5 accounts by login, password and server, no Windows needed. OAuth or optional API key; read-only unless the user allows trading. Also MarketLabs research tools (calendar, CFTC positioning, cited brief) |
 | OANDA | [florinel-chis/oanda-mcp](https://github.com/florinel-chis/oanda-mcp) (★2, MIT) | Community; practice env by default, trading hidden unless enabled |
 | Saxo | [sigvardt/saxo-bank-mcp](https://github.com/sigvardt/saxo-bank-mcp) (★0) | Community; SIM-first, live writes off by default |
 | IG | [kea0811/ig-trading-mcp](https://github.com/kea0811/ig-trading-mcp) (★8) | Community; 21 tools, Lightstreamer prices |
