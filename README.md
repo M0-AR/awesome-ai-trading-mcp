@@ -195,6 +195,7 @@ All official, hosted, and mostly paid beyond a free tier. Endpoints per [hive-in
 | Santiment | `api.santiment.net/mcp` | Social + on-chain metrics, OAuth |
 | LunarCrush | `lunarcrush.ai/mcp` | Social sentiment; free tier 100 req/day |
 | Messari | `mcp.messari.io/mcp` | Research, unlocks, fundraising; sales-gated |
+| FlowFeed | `https://mcp.flowfeed.cc/mcp` | Real-time macro, forex and crypto news, economic calendar |
 | DefiLlama | Unconfirmed (one community list only) | TVL, yields |
 
 ## Institutional data (Claude for Financial Services)
